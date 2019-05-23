@@ -9,7 +9,7 @@ https://www.pjrc.com/store/teensy36.html<br>
 https://www.pjrc.com/store/display_ili9341_touch.html<br>
 https://www.pjrc.com/store/cable_usb_host_t36.html<br>
 
-You'll need an SD card, and a USB hub for your midi devices.
+You'll need a micro SD card, and a USB hub for your midi devices.
 
 Hardware is attached to the Teensy as described at PJRC.com. 
 
