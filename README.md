@@ -4,7 +4,7 @@ USB host and USB MIDI to DIN patchbay for Teensy3.6<br>
 You will need a Teensy 3.6 (may work with a 4.1 but hasn't been tested - some serial ports are on different pins than the 3.6 ). <br>
 You will need the USB host cable or equivalent  https://www.pjrc.com/store/cable_usb_host_t36.html <br>
 You will need a 320x240 ili9341 touchscreen  https://www.pjrc.com/store/display_ili9341_touch.html <br>
-You will need and SD acrd placed in the built in card slot on the Teensy for storing configurations. <br>
+You will need and SD card placed in the built in card slot on the Teensy for storing configurations. <br>
 You will need 4 appropriate optoisolators - I recommend the H11L1.<br>
 Here is an acceptable guide to building a 3.3v MIDI circuit https://diyelectromusic.wordpress.com/2021/02/15/midi-in-for-3-3v-microcontrollers/ <br>
 You will need 8 x 5 pin DIN jacks. <br>
