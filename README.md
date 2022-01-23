@@ -13,4 +13,4 @@ You will need resistors as applicable to your optoisolator choice. Generally thi
 The hard coded device recognition in the "inputCheck" tab/file is based on my own devices. To add your own, you will need the hexadecimal device ID string that can be obtained by any number of methods like LSUSB in Linux or diggint around in Device manager in Windows, or in MacOS it is found in About This Mac/Hardware/USB.
 You would add a #define to the beginning of direktisto.ino using a unique device identifier of your choice and the Device ID string, then edit the functions "deviceCheck","memoryLoad" and "memWrite" (in its own tab/file) by copying an existing entry and editing it to match your speciific device.  You may of course optionally delete entries for devices you do not own. 
 
-
+The DIN MIDI ports are hard coded to route to/from the teensy USBMidi ports # 13,14,15, and 16.  input from a hosted device is split between the DIN port and the USB MIDI port and therefore any data appears in both locations.
