@@ -1,5 +1,5 @@
 # Direktisto
-USB host and USB MIDI to DIN patchbay for Teensy3.6
+USB host and USB MIDI to DIN patchbay for Teensy3.6<br>
 
 You will need a Teensy 3.6 (may work with a 4.1 but hasn't been tested - some serial ports are on different pins than the 3.6 )
 You will need the USB host cable or equivalent  https://www.pjrc.com/store/cable_usb_host_t36.html
