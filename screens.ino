@@ -51,6 +51,10 @@ void boilerplate() {
   tft.setCursor(295, 113);
   rainbow(activeOutputPage);
   tft.print(activeOutputPage);
+  tft.drawRect(200, 138, 39, 39, GRAY);
+  tft.drawRect(280, 63, 39, 39, GRAY);
+  tft.drawRect(240, 63, 39, 39, GRAY);
+    tft.drawRect(200, 63, 39, 39, DIMMED);
   tft.setTextColor(WHITE);
   tft.setCursor(201, 151);
   tft.print("More");
